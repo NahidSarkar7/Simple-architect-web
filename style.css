@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Exo+2:ital,wght@0,100..900;1,100..900&family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+.body{
+    font-family: Work Sans;
+}
+
+.header{
+    max-width: 1600px;
+    margin: 0px auto;
+    background-color: rgba(255, 144, 14, 0.1);
+    text-align: center;
+    /* border: 5px solid red; */
+  
+}
+
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    
+}
+nav ul{
+    display: flex;
+    gap: 20px;
+}
+nav li{
+    list-style: none;
+}
+
+nav li a{
+    text-decoration: none;
+    color:#424242 ;
+}
+
+.descrip{
+    color: #424242;
+}
+
+
+.heading-h1{
+    width: 865px;
+    height: 225px;
+    /* border: 2px solid rgb(10, 221, 80); */
+   margin: 0px auto;
+   font-size: 1.2rem;
+   margin-bottom: 10px;
+   
+}
+
+.primary-btn{
+    width: 150px;
+    height: 60px;
+    color:aliceblue;
+    background-color:#FF900E;
+    border: none;
+    border-radius: 7px;
+    
+}
+
+.banner-image{
+    width:100%;
+  
+    margin: 0px auto;
+    border-radius: 8px;
+    margin-top: 35px;
+    
+}
+
+/* .image{
+    margin-bottom: 40px;
+    width: 100%;
+} */
+
+.two-box{
+    /* border: 1px solid black; */
+    /* width: 100%; */
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:576px) {
+
+    nav{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    .two-box{
+        width:450px;
+        margin-left:  10px;
+       
+        
+    }
+ 
+    .header{
+        /* border: 2px solid blue; */
+    }
+    .image{
+        margin: 0px 650px 0px 0px;
+        width: 400px;
+    }
+    
+  
+    
+}
+
+
+/* @media screen and (min-width:577px) and(max-width:968px) {
+    .image{
+        
+        width: 100px;
+    }
+} */
+
