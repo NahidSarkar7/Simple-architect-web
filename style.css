@@ -108,6 +108,8 @@ nav li a{
     .heading-h1{
         width:450px;
         margin: 0px auto;
+        background-color: red;
+        padding: 10px;
     }
 
     }
